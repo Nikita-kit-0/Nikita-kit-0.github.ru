@@ -1,0 +1,98 @@
+html{
+    height: 100%;
+    background-color:navajowhite;
+
+}
+
+/* @keyframes animation{ 
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 70% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+*/
+
+.pic{
+    border-radius: 15px;
+    background: gray; /* цвет фона */
+}
+.ram{
+    border-radius: 12px; 
+    padding: 8px;
+    border: solid 1px black;
+    background-color: rgb(49, 49, 49);
+    color:honeydew;
+    text-decoration: none; /*убирает подчеркивание текста*/
+    transition: 0.2s linear, 0.2s linear;
+    transition-property: all;
+}
+.ram:hover{
+    border-radius: 8px;  
+    padding: 8px;
+    background-color: rgb(170, 169, 169);
+    color:rgb(12, 12, 12);
+    text-decoration: none; /*убирает подчеркивание текста*/
+}
+.txt{
+    background-color:rgb(213, 214, 199);
+    text-align: justify; /*делает выравнивание текста слева и справа*/
+    border-radius: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 15px;
+}
+.menu{
+    
+    border-bottom: ridge 10px rgb(197, 186, 121);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(180, 146, 95);
+    margin-top: auto;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    /* background: linear-gradient(to right,#ffe259, #ffa751); 
+    background-size: 400% 400%;
+    animation: animation 5s ease infinite;
+    */
+}
+.listyle{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0px;
+    display: inline; /*Чтобы все было на одной линии*/
+    margin-left: 10px;
+    text-decoration: none; /*убирает подчеркивание текста*/
+    margin: 50px;
+}
+
+.imag{
+    list-style-type: none;
+    padding-left: 0;
+    display: inline;
+    margin-left: 0px;
+}
+.imag{
+    list-style-type: none;
+    padding-left: 0;
+    display: inline;
+    margin-left: 10px;
+    padding: 10px;
+    width:250px;
+    color:honeydew;
+    text-decoration: none; /*убирает подчеркивание текста*/
+    margin: 80px;
+}
+.listyle a{ 
+    color: rgb(238, 238, 238);
+    text-decoration: none; /*убирает подчеркивание текста*/
+}
+.font{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
